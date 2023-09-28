@@ -1,12 +1,20 @@
 package exercise_3;
 
 public class Table {
-    int tableNumber;
-    boolean isAvailable;
+    private int tableNumber;
+    private boolean isAvailable;
 
     public Table(int tableNumber) {
         this.tableNumber = tableNumber;
         this.isAvailable = true;
+    }
+
+    public int getTableNumber() {
+        return tableNumber;
+    }
+
+    public boolean isAvailable() {
+        return isAvailable;
     }
 
     public void reserve(){

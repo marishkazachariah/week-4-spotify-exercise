@@ -20,7 +20,7 @@ public class Order {
 
     public void addFoodItem(FoodItem item) {
         foodItems.add(item);
-        totalPrice += item.price;
+        totalPrice += item.getPrice();
     }
 
     public double calculateTotal() {

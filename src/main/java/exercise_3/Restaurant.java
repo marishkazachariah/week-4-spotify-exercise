@@ -23,12 +23,12 @@ class Restaurant {
     }
 
     public void placeOrder(Table table, Order order) {
-        if (table.isAvailable) {
+        if (table.isAvailable()) {
             table.reserve();
             orders.add(order);
-            System.out.println("Order placed for Table " + table.tableNumber + ". Order ID: " + order.getOrderID());
+            System.out.println("Order placed for Table " + table.getTableNumber() + ". Order ID: " + order.getOrderID());
         } else {
-            System.out.println("Table " + table.tableNumber + " is not available for ordering.");
+            System.out.println("Table " + table.getTableNumber() + " is not available for ordering.");
         }
     }
 }
