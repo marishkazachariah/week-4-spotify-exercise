@@ -4,10 +4,10 @@ public static void main(String[] args){
 
 String title;
 String author;
-Double ISBN;
+double ISBN;
 
-public static getBookInfo();
+public static getBookInfo ( String title, String author, double ISBN);
 
-public static isAvailable();
+public static isAvailable( Double ISBN);
 }
 }
