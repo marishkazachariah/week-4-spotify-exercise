@@ -1,6 +1,6 @@
 package org.example;
 
 public interface Artist {
-    void getName();
-    void setName();
+    String getName();
+    void setName(String name);
 }
