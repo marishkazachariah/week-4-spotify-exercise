@@ -1,8 +1,8 @@
 Public Class Library{
 
-String book;
-String member;
-String loan;
+private String book;
+private String member;
+private String loan;
 
 addBook(String book);
 

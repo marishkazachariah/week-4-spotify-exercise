@@ -2,12 +2,12 @@ Public Class Book{
 
 public static void main(String[] args){
 
-String title;
-String author;
-double ISBN;
+private String title;
+private String author;
+private double ISBN;
 
-public static getBookInfo ( String title, String author, double ISBN);
+getBookInfo ( String title, String author, double ISBN);
 
-public static isAvailable( Double ISBN);
+isAvailable( Double ISBN);
 }
 }

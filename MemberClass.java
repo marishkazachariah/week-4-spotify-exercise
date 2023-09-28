@@ -2,11 +2,11 @@ Public Class Member{
 
 public static void main(String[] args){
 
-String name();
-String borrowedBooks();
+private String name();
+private String borrowedBooks();
 
-public static borrowBook ( String name, String borrowedBooks);
+borrowBook ( String name, String borrowedBooks);
 
-public static returnBook (String name, String borrowedBooks);
+returnBook (String name, String borrowedBooks);
 }
 } 
