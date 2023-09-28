@@ -3,10 +3,10 @@ Public Class Member{
 public static void main(String[] args){
 
 String name();
-String borrowed books();
+String borrowedBooks();
 
-public static borrowBook();
+public static borrowBook ( String name, String borrowedBooks);
 
-public static returnBook();
+public static returnBook (String name, String borrowedBooks);
 }
 } 
