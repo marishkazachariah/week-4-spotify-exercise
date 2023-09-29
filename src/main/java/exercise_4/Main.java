@@ -1,7 +1,7 @@
 package exercise_4;
 import java.util.Scanner;
 
-public class JavaProgram {
+public class Main {
     public static void main(String... args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Hello :)\nWhat is your name?");
